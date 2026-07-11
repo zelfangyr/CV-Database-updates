@@ -1,0 +1,6 @@
+{
+  "latest_version": "1.1.0",
+  "release_url": "https://github.com/zelfangyr/CV-Database/releases/tag/v1.1.0",
+  "download_url": "https://github.com/zelfangyr/CV-Database/releases/download/v1.1.0/CV_Database_v1.1.0.zip",
+  "notes": "OCR fallback, sorting, filter, export Excel"
+}
