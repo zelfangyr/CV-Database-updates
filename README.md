@@ -23,9 +23,10 @@ Setiap kali aplikasi CV Database dibuka, ia membaca `version.json` di repo ini (
 
 ## Versi saat ini
 
-**v1.4.1** — Bug fix: pastikan dependency (pdfplumber, dkk) ter-bundle dengan benar saat build PyInstaller, sehingga fitur baca PDF tidak error di aplikasi hasil release.
+**v1.4.2** — Bug fix: UnicodeEncodeError ('charmap' codec) saat upload PDF yang berisi karakter unicode tertentu (mis. bullet '▪'), karena konsol Windows default pakai encoding cp1252. Paksa stdout/stderr ke UTF-8.
 
 ### Riwayat versi
+- **1.4.2** — Bug fix: UnicodeEncodeError saat upload PDF berisi karakter unicode tertentu (mis. bullet '▪') di konsol Windows.
 - **1.4.1** — Bug fix: dependency PDF (pdfplumber, dkk) ter-bundle dengan benar saat build, fitur baca PDF tidak error lagi di exe.
 - **1.4.0** — Redesign Dashboard CV (KPI cards, donut chart, filter tahun); tombol Import dari Excel (sync ke database, data lama tidak terhapus).
 - **1.3.0** — Preview CV di halaman, tab Dashboard CV, kolom Tanggal & Jam Simpan, validasi field wajib.
