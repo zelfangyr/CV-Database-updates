@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.2.0",
-  "release_url": "https://github.com/zelfangyr/CV-Database-updates/releases/tag/V1.2.0",
-  "download_url": "https://github.com/zelfangyr/CV-Database-updates/releases/download/V1.2.0/CV_Database.zip",
-  "notes": "Cek update otomatis, lokasi data persisten (tidak hilang saat update), dropdown Tim & Tahun, pagination, tampilan tabel dirapikan"
+  "latest_version": "1.4.0",
+  "release_url": "https://github.com/zelfangyr/CV-Database-updates/releases/tag/V1.4.0",
+  "download_url": "https://github.com/zelfangyr/CV-Database-updates/releases/download/V1.4.0/CV_Database.zip",
+  "notes": "Redesign Dashboard CV (KPI cards, donut chart Source CV, filter per tahun), tombol Import dari Excel yang sinkron ke database tanpa menghapus data lama"
 }
