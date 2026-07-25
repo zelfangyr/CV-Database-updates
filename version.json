@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.4.0",
-  "release_url": "https://github.com/zelfangyr/CV-Database-updates/releases/tag/V1.4.0",
-  "download_url": "https://github.com/zelfangyr/CV-Database-updates/releases/download/V1.4.0/CV_Database.zip",
-  "notes": "Redesign Dashboard CV (KPI cards, donut chart Source CV, filter per tahun), tombol Import dari Excel yang sinkron ke database tanpa menghapus data lama"
+  "latest_version": "1.4.1",
+  "release_url": "https://github.com/zelfangyr/CV-Database-updates/releases/tag/V1.4.1",
+  "download_url": "https://github.com/zelfangyr/CV-Database-updates/releases/download/V1.4.1/CV_Database.zip",
+  "notes": "Bug fix: pastikan dependency (pdfplumber, dkk) ter-bundle dengan benar saat build, sehingga fitur baca PDF tidak error di aplikasi hasil release"
 }
